@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM5</title>
+</head>
+<body>
+    <h1 class="text">Try to find the Diamond:</h1>
+    <h3 id="text">Start Guessing</h3>
+    <div class="container">
+        <div class="main_box">
+            <button class="box box_1" id="box1" onclick="revel('box1')">&nbsp</button>
+            <button class="box box_2" id="box2" onclick="revel('box2')">&nbsp</button>
+            <button class="box box_3" id="box3" onclick="revel('box3')">&nbsp</button>
+        </div>
+        <div class="main_box">            
+            <button class="box" id="box4" onclick="revel('box4')">&nbsp</button>
+            <button class="box" id="box5" onclick="revel('box5')">&nbsp</button>
+            <button class="box" id="box6" onclick="revel('box6')">&nbsp</button>
+        </div>
+        <div class="main_box">
+            <button class="box" id="box7" onclick="revel('box7')">&nbsp</button>
+            <button class="box" id="box8" onclick="revel('box8')">&nbsp</button>
+            <button class="box" id="box9" onclick="revel('box9')">&nbsp</button>
+        </div>
+    </div>
+    <div class="btn">
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
